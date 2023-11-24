@@ -3,14 +3,21 @@
   font-family: "MuseoModerno", sans-serif;
 }
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
   max-width: 950px;
   margin: 0 auto;
 }
+
 @import "blocks/promo";
 @import "blocks/header.scss";
-@import "blocks/buttons";
 @import "blocks/advantages";
+@import "blocks/contultation";
+
+@import "blocks/titles";
+@import "blocks/subtitles";
+@import "blocks/buttons";
+@import "blocks/forms";
+@import "./media.scss";
