@@ -122,6 +122,14 @@
       width: 33.82vw;
     }
   }
+  .carousel {
+    &__inner {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 @media (max-width: 575px) {
   .header {
@@ -173,7 +181,7 @@
   .subtitle {
     font-size: 20px;
     text-align: center;
-    &__form{
+    &__form {
       text-align: center;
       font-size: 15px;
       line-height: 21px;
@@ -205,6 +213,15 @@
     width: 92.8vw;
     input {
       width: 85.8vw;
+    }
+  }
+  .carousel {
+    .slick-dots {
+      width: 15vw;
+      li button {
+        height: 10px;
+        width: 1px;
+      }
     }
   }
 }
