@@ -1,0 +1,46 @@
+.catalog {
+  padding-bottom: 100px;
+  &__tabs {
+    margin-top: 46px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  &__tab {
+    margin: 0 5px;
+    width: 14vw;
+    height: 6.9vh;
+    border: 2px solid #d0d0d0;
+    color: #6b6b6b;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; /* 100% */
+    text-transform: uppercase;
+    transition: 0.7s all;
+    &:hover {
+      box-shadow: 3px 3px 20px $main-color;
+      border: none;
+    }
+    cursor: pointer;
+    transform: skewX(-25deg);
+    div {
+      transform: skewX(25deg);
+    }
+    &_active {
+      background-color: $main-color;
+      color: #fff;
+      border: none;
+    }
+  }
+  &-item {
+    width: 19.6vw;
+    height: 59.282vh;
+    border: 2px solid #d0d0d0;
+    padding: 20px;
+  }
+}
