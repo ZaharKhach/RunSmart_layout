@@ -11,10 +11,43 @@ $(document).ready(function () {
                     arrows: false
                 }
             },
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
-
     });
+
+    const catalogContent = document.querySelector('.catalog__content');
+    const catalogWrapper = document.querySelector('.catalog__wrapper');
+
+    const linksListener = (catalogContent) => {
+        const mainContent = catalogContent.querySelector('.catalog-item__main-content');
+        const listContent = catalogContent.querySelector('.catalog-item__list-content');
+        const links = catalogContent.querySelectorAll('.catalog-item__link');
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+
+                if (mainContent.classList.contains('catalog-item__main-content_active')) {
+                    mainContent.classList.remove('catalog-item__main-content_active');
+                    listContent.classList.add('catalog-item__list-content_active');
+                    return;
+                };
+                listContent.classList.remove('catalog-item__list-content_active');
+                mainContent.classList.add('catalog-item__main-content_active');
+
+            })
+        })
+    }
+
+    for (let i = 0; i < 5; i++) {
+        const copiedContent = catalogContent.cloneNode(true);
+
+        if(i>1) {
+            copiedContent.style.marginTop = '19px';
+        }
+
+        linksListener(copiedContent);
+
+        catalogWrapper.appendChild(copiedContent);
+    }
+    linksListener(catalogContent);
+
 });
