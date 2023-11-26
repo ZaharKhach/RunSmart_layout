@@ -12,6 +12,7 @@
 
   cursor: pointer;
   margin-top: 4px;
+  transition: 0.7s all;
   &:hover {
     background-color: $main-color-hover;
   }
@@ -37,5 +38,10 @@
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+    transition: 0.7s all;
+    cursor: pointer;
+    &:hover {
+      background-color: $main-color-hover;
+    }
   }
 }

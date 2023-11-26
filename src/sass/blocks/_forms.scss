@@ -18,7 +18,7 @@
     font-weight: 500;
     &:focus {
       outline: none;
-      box-shadow: 0 0 5px #4b4b4b;
+      box-shadow: 3px 3px 20px $main-color;
     }
   }
 }
