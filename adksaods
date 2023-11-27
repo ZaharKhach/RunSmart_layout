@@ -1,0 +1,65 @@
+[33mcommit f1cbdbadf9e07210412c2dcce781bc6c0c8cc4a2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Mon Nov 27 19:01:23 2023 +0100
+
+    section feedbacks with modile adaptation
+
+[33mcommit 298650800290d5a2c093967088f5e326b3edbb91[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Sun Nov 26 15:48:46 2023 +0100
+
+    silders with mobile adaptation (without veery small screen)
+
+[33mcommit 8c44168768b02bba5e1eb6b1af277f1bc9c5c2b5[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Sun Nov 26 10:44:46 2023 +0100
+
+    modifed slider with js but  without mobile ver
+
+[33mcommit 4ef71d1b840675dbb84bf8764e05f473d50cc68e[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Sun Nov 26 08:58:21 2023 +0100
+
+    modifed slider without js
+
+[33mcommit cfe5cfb7e5a37c71a956e40f4a2c3edf2363a4d4[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Sat Nov 25 15:53:17 2023 +0100
+
+    slider with first 3 columns (css and html)
+
+[33mcommit 0493f8921e25984c9877d09a2f9af2eae2de7e64[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Sat Nov 25 15:28:54 2023 +0100
+
+    slider only with filters and title
+
+[33mcommit 2c61d6f9921da48d94b786351644a1e68fe2abfd[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Sat Nov 25 13:46:40 2023 +0100
+
+    slider with modile adaptation
+
+[33mcommit 39c7e644f0363490b7f58a6a27d975ef70d3cdfb[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Fri Nov 24 13:31:56 2023 +0100
+
+    added form(html&css also mobile version
+
+[33mcommit 25e5dc2a75c95b24492b1a8d189933291f7f57a1[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Thu Nov 23 18:04:36 2023 +0100
+
+    section advantages (html&css)
+
+[33mcommit 42770d85317eaefdc7fb08590f07e77eecf799be[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Thu Nov 23 17:17:50 2023 +0100
+
+    second commit with section advantages(htmlonly)
+
+[33mcommit b136f9c38634188237db2cbd2ae4be6365ff43c3[m
+Author: dendywool <zaharkhachaturyan@gmail.com>
+Date:   Thu Nov 23 17:14:16 2023 +0100
+
+    first_commit with section promo

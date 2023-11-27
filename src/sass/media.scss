@@ -60,6 +60,30 @@
       }
     }
   }
+  .feedbacks{
+    &__feedback{
+      justify-content: space-around;
+    }
+    &__info{
+      width: 66.32vw;
+    }
+  }
+  .footer{
+    &__adress{
+      margin-top: 16px;
+    }
+    &__phone{
+      width: 18.9vw;
+      margin-top: 20px;
+    }
+    &__social{
+      width: 16.9vw;
+      margin-top: 27px;
+      &-item{
+        width: 4.39vw;
+      }
+    }
+  }
 }
 
 @media (max-width: 769px) {
@@ -169,6 +193,25 @@
       }
     }
   }
+  .footer{
+    &__adress{
+      width: 50vw;
+      font-size: 17px;
+      margin-top: 10px;
+    }
+    &__phone{
+      width: 20.9vw;
+      margin-top: 11px;
+      font-size: 16px;
+    }
+    &__social{
+      width: 19.9vw;
+      margin-top: 18px;
+      &-item{
+        width: 5.39vw;
+      }
+    }
+  }
 }
 
 @media (max-width: 650px) {
@@ -187,6 +230,23 @@
     }
     &-item {
       width: 44.6vw;
+    }
+  }
+
+  .footer{
+    &__phone{
+      margin-top: 15px;
+      width: 23.9vw;
+    }
+    &__social{
+      width: 25.9vw;
+      margin-top: 7%;
+      &-item{
+        width: 6.39vw;
+      }
+    }
+    &__info{
+      height: 23vh;
     }
   }
 }
@@ -321,6 +381,27 @@
     }
     &__comment{
       font-size: 15px;
+    }
+  }
+
+  
+  .footer{
+    &__adress{
+      width: 73vw;
+    }
+    &__phone{
+      margin-top: 25px;
+      width: 36.9vw;
+    }
+    &__social{
+      width: 35.9vw;
+      margin-top: 5%;
+      &-item{
+        width: 9.39vw;
+      }
+    }
+    &__info{
+      height: 23vh;
     }
   }
 }
