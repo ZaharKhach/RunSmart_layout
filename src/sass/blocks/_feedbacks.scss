@@ -1,0 +1,40 @@
+.feedbacks {
+  min-height: 123.4vh;
+  &__feedback {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+  }
+  &__status {
+    color: #646464;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  &__info {
+    width: 44.32vw;
+  }
+  &__comment {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    margin-top: 10px;
+  }
+  &__avavtar{
+    width:  11.016949152542374vw;
+    img{
+        width: 100%;
+    }
+  }
+}

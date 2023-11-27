@@ -37,6 +37,7 @@ $(document).ready(function () {
         const links = catalogContent.querySelectorAll('.catalog-item__link');
         links.forEach(link => {
             link.addEventListener('click', (e) => {
+                console.table(e)
                 e.preventDefault();
     
                 if (mainContent.classList.contains('catalog-item__main-content_active')) {

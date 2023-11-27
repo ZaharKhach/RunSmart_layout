@@ -185,7 +185,7 @@
         font-size: 15px;
       }
     }
-    &-item{
+    &-item {
       width: 44.6vw;
     }
   }
@@ -285,12 +285,42 @@
     }
   }
   .catalog {
+    &-item{
+      &__link {
+        width: 20vw;
+        font-size: 13px;
+      }
+    }
+    &-item__descr {
+      width: 200px;
+      font-size: 12px;
+    }
+    &-item__list-item {
+      font-size: 12px;
+    }
     &__tab {
       div {
         font-size: 12px;
       }
     }
-    &__link {
+  }
+  // 17 13 15 12
+  .feedbacks {
+    &__info{
+      width: 71vw;
+    }
+    &__feedback {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__name {
+      font-size: 17px;
+    }
+    &__status{
+      font-size: 13px;
+    }
+    &__comment{
+      font-size: 15px;
     }
   }
 }
