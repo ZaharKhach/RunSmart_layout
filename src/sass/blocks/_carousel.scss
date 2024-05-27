@@ -4,8 +4,7 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
-        }
-    
+    }
     .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
@@ -14,11 +13,6 @@
         border: none;
         background-color: white;
         cursor: pointer;
-        img {
-            width: 2vw;
-            height: 6vh;
-        }
-
     }
     .slick-next {
         left: auto;
@@ -48,11 +42,6 @@
                     background-color: black;
                }
             }
-        }
-    }
-    slick-slide{
-        img{
-
         }
     }
 }

@@ -9,12 +9,13 @@ body {
 .container {
   max-width: 950px;
   margin: 0 auto;
+  padding: 30px;
 }
 
 @import "blocks/promo";
 @import "blocks/header.scss";
 @import "blocks/advantages";
-@import "blocks/contultation";
+@import "./blocks/consultation";
 
 @import "blocks/titles";
 @import "blocks/subtitles";

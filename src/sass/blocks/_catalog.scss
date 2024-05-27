@@ -11,12 +11,11 @@
   }
   &__tab {
     margin: 0 5px;
-    width: 14vw;
-    height: 6.9vh;
+    padding: 10px 30px;
     border: 2px solid #d0d0d0;
     color: #6b6b6b;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 55px; /* 100% */
@@ -38,16 +37,11 @@
   }
   &__wrapper {
     margin-top: 57px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    &:nth-child(5) {
-      margin-top: 19px;
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 50%); 
+    gap: 10px;
   }
   &-item {
-    width: 16.6vw;
-    height: 56.282vh;
     border: 2px solid #d0d0d0;
     padding: 20px;
     transition: 0.7s all;
@@ -71,7 +65,7 @@
     &__descr {
       margin-top: 15px;
       color: #0d0d0d;
-      text-align: center;
+      text-align: left;
       font-size: 14px;
       font-style: normal;
       font-weight: 300;
@@ -166,7 +160,6 @@
         margin-right: 0px;
       }
     }
-
     &__list {
       list-style: none;
       padding-left: 10px;
@@ -178,7 +171,7 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 300;
-        line-height: 21px; /* 150% */
+        line-height: 21px;
         &::before {
           content: "";
           width: 8px;

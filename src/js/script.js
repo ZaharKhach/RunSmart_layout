@@ -55,10 +55,6 @@ $(document).ready(function () {
     for (let i = 0; i < 5; i++) {
         const copiedContent = catalogContent.cloneNode(true);
 
-        if(i>1) {
-            copiedContent.style.marginTop = '19px';
-        }
-
         linksListener(copiedContent);
 
         catalogWrapper.appendChild(copiedContent);

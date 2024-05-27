@@ -1,10 +1,9 @@
 .footer {
   margin-top: 50px;
-  height: 84.45040214477211vh;
   position: relative;
   &__adress {
     margin: 50px auto 0 auto;
-    width: 24.011734028683183vw;
+    width: 100%;
     color: #fff;
     text-align: center;
     font-size: 20px;
@@ -15,7 +14,7 @@
   &__phone {
     display: block;
     margin: 36px auto 0 auto;
-    width: 12.907431551499348vw;
+    width: 100%;
     color: #fff;
     text-align: center;
     font-size: 20px;
@@ -28,26 +27,8 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 61.66219839142091vh;
-    height: 17.601043024771837vw;
+    width: 50%;
+    height: 24%;
     background-color: $main-color;
-  }
-  &__social{
-    display: flex;
-    justify-content: space-around;
-    width: 13.95045632333768vw;
-    margin: 36px auto 0 auto;
-  }
-  &__social-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6.970509383378016vh;
-    width: 3.389830508474576vw;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    img{
-        min-height: 3.2171581769436997vh;
-    }
   }
 }
